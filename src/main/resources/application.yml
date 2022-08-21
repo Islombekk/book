@@ -1,0 +1,12 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: 1781490cvb
+    hikari:
+      connection-test-query: SELECT 1
+      maximum-pool-size: 5
+    driver-class-name: org.postgresql.Driver
